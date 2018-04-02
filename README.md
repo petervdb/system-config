@@ -6,7 +6,7 @@ I created this repository to learn more about Saltstack and also to be able to s
 Using Saltstack I automated some installation and configuration settings on my Linux systems.
 
 This repository has currently been tested on following operating systems
-- Ubuntu
+- Ubuntu 16.04
 - Ubuntu for Windows on Windows 10
 
 History
