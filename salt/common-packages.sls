@@ -6,7 +6,7 @@ sysstat:             # ID declaration
 
 vim:
   pkg.installed:
-    - name: git
+    - name: vim
 
 findutils:
   pkg.installed:
@@ -15,4 +15,16 @@ findutils:
 rsync:
   pkg.installed:
     - name: rsync
+
+cvs:
+  pkg.installed:
+    - name: cvs
+
+git:
+  pkg.installed:
+    - name: git
+
+gitk:
+  pkg.installed:
+    - name: gitk
 
