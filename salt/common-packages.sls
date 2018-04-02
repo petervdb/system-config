@@ -12,3 +12,7 @@ findutils:
   pkg.installed:
     - name: findutils
 
+rsync:
+  pkg.installed:
+    - name: rsync
+
