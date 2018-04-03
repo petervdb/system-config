@@ -5,7 +5,7 @@ There are some requirements needed to use this:
 - internet connectivity to be able to download software packages
 - root access on your system
 
-## Installation on Ubuntu related operating systems
+## Installation on (Intel based) Ubuntu related operating systems
 First, bootstrap your workstation on Ubuntu:
 Reference: https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html
 
@@ -25,6 +25,14 @@ zypper addrepo http://download.opensuse.org/repositories/systemsmanagement:/salt
 zypper refresh
 zypper install salt salt-minion salt-master
 ```
+## Installation on ARM64 based Ubuntu systems
+The default installation steps did not work on my Odroid device which runs on ARM based Ubuntu system.
+I was able to install Salt using this command: 
+```
+sudo ./bootstrap_salt.sh -r -P git
+```
+It does take significantly more time to install it, but it did the trick.
+
 
 ## Telling Salt to run masterless
 Edit file /etc/salt/minion
