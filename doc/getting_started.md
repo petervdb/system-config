@@ -7,13 +7,20 @@ There are some requirements needed to use this:
 First, bootstrap your workstation on Ubuntu:
 Reference: https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html
 
-REMARKS
-If you are using OpenSUSE installation files can be found repositories provided from openSuSE
-
 This will take a few minutes, depending on how fast your internet connection is:
 
 curl -L https://bootstrap.saltstack.com -o bootstrap_salt.sh
 sudo sh bootstrap_salt.sh
+
+REMARKS
+If you are using OpenSUSE installation files can be found repositories provided from openSuSE
+https://docs.saltstack.com/en/latest/topics/installation/suse.html
+Installation instructions for openSuSE:
+`
+zypper addrepo http://download.opensuse.org/repositories/systemsmanagement:/saltstack/openSUSE_Tumbleweed/systemsmanagement:saltstack.repo
+zypper refresh
+zypper install salt salt-minion salt-master
+`
 
 Telling Salt to run masterless
 ---
