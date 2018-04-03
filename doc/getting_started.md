@@ -4,8 +4,11 @@ There are some requirements needed to use this:
 - internet connectivity to be able to download software packages
 - root access on your system
 
-First, bootstrap your workstation:
+First, bootstrap your workstation on Ubuntu:
 Reference: https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html
+
+REMARKS
+If you are using OpenSUSE installation files can be found repositories provided from openSuSE
 
 This will take a few minutes, depending on how fast your internet connection is:
 
