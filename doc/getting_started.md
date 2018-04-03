@@ -35,7 +35,7 @@ file_client: local
 ```
 By default salt files need to be in /srv/salt. 
 
-Or you can copy the salt folder to /srv/salt or you can make a symlink from /srv/salt to the salt folder in this repository
+Or you can copy the salt folder,located in data,  to /srv/salt or you can make a symlink from /srv/salt to the salt folder in this repository.
 
 Execute the following command to setup your system:
 ```
