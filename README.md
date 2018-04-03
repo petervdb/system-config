@@ -8,10 +8,11 @@ Using Saltstack I automated some installation and configuration settings on my L
 This repository has currently been tested on following operating systems
 - Ubuntu 16.04
 - Ubuntu for Windows on Windows 10
+- OpenSuSE Tumbleweed
 
 History
 =======
 * 2018-04-02 Initial setup of this repository.
-* 2018-04-02 Added common software packages
+* 2018-04-02 Added common software packages, user creation, basic documentation
 
-Have a look at the wiki pages for more details.
+Have a look in the doc folder for more details.
