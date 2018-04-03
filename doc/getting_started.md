@@ -12,7 +12,7 @@ This will take a few minutes, depending on how fast your internet connection is:
 curl -L https://bootstrap.saltstack.com -o bootstrap_salt.sh
 sudo sh bootstrap_salt.sh
 
-REMARKS
+# REMARKS
 If you are using OpenSUSE installation files can be found repositories provided from openSuSE
 https://docs.saltstack.com/en/latest/topics/installation/suse.html
 Installation instructions for openSuSE:
