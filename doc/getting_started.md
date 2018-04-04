@@ -46,6 +46,9 @@ Or you can copy the salt folder,located in data,  to /srv/salt or you can make a
 
 ## Things to look at before you start
 Before you execute salt, have a look at data/salt/add_users_template.sls
+You have 2 options here:
+- copy data/salt/add_users_template.sls to  data/salt/add_users.sls and modify add_users.sls
+- or leave it as it is if you don't want that certain users get created automatically
 
 ## Running Salt to configure/update your system
 

@@ -1,5 +1,6 @@
 base:
   '*':
     - common-packages
-    - add_users
+# Comment this out if you do or don't want users
+#    - add_users
 
