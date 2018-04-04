@@ -33,7 +33,6 @@ sudo ./bootstrap_salt.sh -r -P git
 ```
 It does take significantly more time to install it, but it did the trick.
 
-
 ## Telling Salt to run masterless
 Edit file /etc/salt/minion
 
@@ -44,6 +43,11 @@ file_client: local
 By default salt files need to be in /srv/salt. 
 
 Or you can copy the salt folder,located in data,  to /srv/salt or you can make a symlink from /srv/salt to the salt folder in this repository.
+
+## Things to look at before you start
+Before you execute salt, have a look at data/salt/add_users_template.sls
+
+## Running Salt to configure/update your system
 
 Execute the following command to setup your system:
 ```
