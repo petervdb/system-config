@@ -1,9 +1,10 @@
 # List of common packages I want on all my systems
 
 sysstat:             # ID declaration
-  pkg:                # state declaration
-    - installed       # function declaration
-
+  pkg.installed:       # function declaration
+    - name: sysstat
+  service.running:
+    - enable: True
 vim:
   pkg.installed:
     - name: vim
